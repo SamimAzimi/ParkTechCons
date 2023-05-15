@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+  }

@@ -1,0 +1,12 @@
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .about-section p {
+    margin-bottom: 20px;
+  }

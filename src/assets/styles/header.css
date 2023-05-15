@@ -1,0 +1,26 @@
+.MainHeaderOfWebsite {
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.MainHader_Logo_Fig {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+.Main_Header_Navigation {
+    /* border:1px solid black;  */
+    width: 100%;
+}
+.Main_Header_Navigation_UL {
+    /* border:2px solid red;  */
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Main_Header_Navigation_UL > li {
+    /* border:1px solid black;  */
+ 
+}
