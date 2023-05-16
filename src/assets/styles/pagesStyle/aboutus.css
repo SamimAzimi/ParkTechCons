@@ -1,12 +1,99 @@
+
 .about-section {
-    max-width: 800px;
-    margin: 0 auto;
+  margin-left:70px;
+  margin-right:70px;
+  padding-bottom: 170px;
+}
+.aboutusMain{
+  border-radius: 33px;
+background: linear-gradient(315deg, #e1e1e1, #ffffff);
+box-shadow:  -50px -50px 100px #e6e6e6,
+             50px 50px 100px #ffffff;
+}
+.storySection {
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px 10px;
+  justify-content: space-evenly;
+   border-radius: 20px;
+
+}
+  .aboutus_heading {
+    
+    text-align: center;
+
+  }
+.aboutus_Para{
+ 
+    text-align: center;
+   
+  }
+  .teamMember {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+
+ 
   }
 
-  .about-section h2 {
+  .teamPhoto {
+    border-radius: 25% 25%;
+    width: 150px;
+    height: 150px;
+
+  }
+  .teamPhoto > img {
+  border-radius: 25% 25%;
+     width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .memberSection {
+    width: 300px;
+    margin-top:10px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 34px #666666,
+                 -20px -20px 34px #ffffff;
+  
   }
-
-  .about-section p {
-    margin-bottom: 20px;
+  .memeberSocialLink {
+    border-radius: 18px;
+    padding:0;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 10px #666666,
+             -5px -5px 10px #ffffff;
+    /* align-self: flex-start; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    width: 100%;
+   
   }
+  .memeberSocialLink > li  {
+  
+  }
+  .memeberSocialLink > li > a {
+  
+    color: blueviolet;  
+   font-size:28px;
+   
+  }
+  .memeberSocialLink > li > a:hover {
+  
+    color: black; 
+   font-size:28px;
+   
+  }
+.teamPhoto > img {
+  object-fit: cover;
+}
